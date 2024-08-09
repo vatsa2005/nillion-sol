@@ -1,0 +1,14 @@
+{
+    "name": "trustless-bitcoin-bridge",
+    "version": "1.0.0",
+    "description": "A trustless bridge for transferring BTC to and from Ethereum",
+    "scripts": {
+        "test": "truffle test"
+    },
+    "dependencies": {
+        "truffle": "^5.4.29",
+        "web3": "^1.5.2",
+        "bitcoinlib": "^0.6.10",
+        "nillion-sdk": "^1.0.0"
+    }
+}
